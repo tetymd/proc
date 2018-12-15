@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-    argv := "./script"
+    argv := "forkexec/script"
     args := []string{}
     attr := &syscall.ProcAttr{}
 
